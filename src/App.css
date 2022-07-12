@@ -82,7 +82,7 @@
 
 
 .flag {
-    width: 34%;
+    width: 33%;
     height: 5vh;
     border-radius: 5px;
     background-image: url("./Images/flag.jpg");
@@ -156,12 +156,12 @@
 }
 
 .options:hover {
-    background-color: #e2dcdca4;
+    background-color: #e2dcdccb;
 }
 
 .optionsflag {
     margin: 0px 10px 0px 5px;
-    width: 43%;
+    width: 42%;
 }
 
 
@@ -195,4 +195,55 @@
 
 .active {
     box-shadow: 0px 0px 0px 2px #000000;
+}
+
+
+/* Making the website reponsive */
+
+@media screen and (max-width:900px) {
+    .container{
+        width: 90vw;
+    }
+
+    .contact{
+        width: 80vw;
+    }
+
+    .stateli{
+        width: 32vw;
+        margin: 0px;
+    }
+    
+    .stateul{
+        width: 26vw;
+    }
+
+    .numberinput{
+        width: 38vw;
+    }
+    
+    .arrowDown{
+        width: 3vw;
+        margin: 0px;
+    }
+
+    .arrowUp{
+        width: 3vw;
+        margin: 0px;
+    }
+
+    .flag{
+        width: 40%;
+        height: 5.5vh;
+    }
+
+    .options{
+        margin-left: -10px;
+    }
+
+    .optionsflag{
+        width: 44%;
+        height: 5.4vh;
+    }
+      
 }
