@@ -107,6 +107,7 @@ const Home = (props) => {
                 <div className='container'>
 
                     <h3 className='heading'>inactive</h3>
+
                     <div className='contact'>
 
                         <div className='tag'>Phone Number</div>
@@ -128,12 +129,15 @@ const Home = (props) => {
 
 
                     <h3 className='heading'>active</h3>
+
                     <div className='contact' id='contact2'>
 
                         <div className='tag'>Phone Number</div>
 
                         <div className='state'>
+
                             <div className='code'>
+
                                 <ul className='stateul'>
 
                                     <li className='stateli select'><div className='flag' alt='...'></div>+91<span className='arrowDown'></span></li>
@@ -155,12 +159,15 @@ const Home = (props) => {
                         <div className='tag'>Phone Number</div>
 
                         <div className='state'>
+
                             <div className='code'>
+
                                 <ul className='stateul'>
 
                                     <li className='stateli select' onClick={toggle} ref={menuRef} ><div className='flag' alt='...'></div>+91<span id='arrowDown' className='arrowDown'></span><span className='arrowUp' id='arrowUp'></span></li>
 
                                     <div className='dropdown' id='dropdown'>
+
                                         <li className='stateli options'><div className='flag optionsflag' alt='...'></div>+91</li>
 
                                         <li className='stateli options' ><div className='flag optionsflag' alt='...'></div>+91</li>
@@ -175,8 +182,11 @@ const Home = (props) => {
                             </div>
 
                             <small className='invalid' id='invalid'>Your Number is invalid. Please Enter a valid number</small>
+
                             <small className='valid' id='valid'>Your number is valid</small>
+
                             <input className='numberinput' id='numberinput3' onClick={active} onMouseDown={regex} type={"text"}></input>
+
                         </div>
 
                     </div>
