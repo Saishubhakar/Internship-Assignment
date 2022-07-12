@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react'
 const Home = (props) => {
 
 
-    // The regex function is used to validate the input provided by the user, and it displays a message based on validity/invalidity of user's input
+    // The regex function is helps to validate the input provided by the user, and it displays a message based on validity/invalidity of user's input
 
     const regex = () => {
 
@@ -39,7 +39,7 @@ const Home = (props) => {
         contact3.classList.add("active")
     }
     // This UseRef is used for the active/inactive state of the contact input 
-    
+
     let ActiveRef = useRef();
 
     // This UseEffect helps to change the active state of the contact input to inactive by clicking anywhere on the except input
