@@ -113,7 +113,9 @@ const Home = (props) => {
                         <div className='tag'>Phone Number</div>
 
                         <div className='state'>
+
                             <div className='code'>
+                            
                                 <ul className='stateul'>
 
                                     <li className='stateli select'><div className='flag' alt='...'></div>+91<span className='arrowDown'></span></li>
