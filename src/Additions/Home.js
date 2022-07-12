@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react'
 const Home = (props) => {
 
 
-    // The regex function is helps to validate the input provided by the user, and it displays a message based on validity/invalidity of user's input
+    // The regex function helps to validate the input provided by the user, and it displays a message based on validity/invalidity of user's input
 
     const regex = () => {
 
